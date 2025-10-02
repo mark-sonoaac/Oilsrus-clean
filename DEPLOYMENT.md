@@ -2,7 +2,8 @@
 
 This repository contains two applications:
 
-> **Note**: Updated for clean deployment without MapLeaflet component.
+> **Note**: Updated for clean deployment without MapLeaflet component.  
+> **Status**: Repository verified with next-app directory included.
 
 1. **Next.js App** (`next-app/`) - Ready for Vercel deployment ✅
 2. **Full-stack Vite + Express App** (root) - Better suited for platforms like Railway, Render, or Heroku
