@@ -6,11 +6,5 @@
   "buildCommand": "cd next-app && npm ci && npm run build",
   "outputDirectory": "next-app/.next",
   "installCommand": "cd next-app && npm ci",
-  "devCommand": "cd next-app && npm run dev",
-  "rootDirectory": "next-app",
-  "git": {
-    "deploymentEnabled": {
-      "deploy": true
-    }
-  }
+  "devCommand": "cd next-app && npm run dev"
 }
