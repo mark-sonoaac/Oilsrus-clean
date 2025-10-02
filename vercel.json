@@ -3,8 +3,7 @@
   "version": 2,
   "name": "oils-r-us",
   "framework": "nextjs",
-  "buildCommand": "cd next-app && npm ci && npm run build",
+  "buildCommand": "npm --prefix next-app ci && npm --prefix next-app run build",
   "outputDirectory": "next-app/.next",
-  "installCommand": "cd next-app && npm ci",
-  "devCommand": "cd next-app && npm run dev"
+  "installCommand": "npm --prefix next-app ci"
 }
