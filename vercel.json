@@ -1,9 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
-  "name": "oils-r-us",
-  "framework": "nextjs",
-  "buildCommand": "cd next-app && npm install && npm run build",
-  "outputDirectory": "next-app/.next",
-  "installCommand": "cd next-app && npm install"
+  "name": "oils-r-us"
 }
