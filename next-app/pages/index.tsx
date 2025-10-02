@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import Header from '../src-nextjs/components/Header'
 import Hero from '../src-nextjs/components/Hero'
 import WhatWeOffer from '../src-nextjs/components/WhatWeOffer'
 import WhyChoose from '../src-nextjs/components/WhyChoose'
@@ -17,6 +18,7 @@ export default function Home() {
         <title>Oil R Us — Premium Fragrance Oils</title>
         <meta name="description" content="Premium fragrance oils for candles, soaps and personal projects." />
       </Head>
+      <Header />
       <main>
         <Hero />
         <div className="container py-12">
