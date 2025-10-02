@@ -22,6 +22,9 @@ yarn-error.log*
 
 # OS
 Thumbs.db
+ 
+# Local agent state (don't commit binary agent files)
+.local/
 node_modules
 dist
 .DS_Store
